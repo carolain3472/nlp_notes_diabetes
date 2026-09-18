@@ -1,0 +1,19 @@
+# Corpus — never commit clinical text
+data/*
+!data/README.md
+
+# Trained checkpoints — can memorise training text
+models/
+*.bin
+*.safetensors
+
+# Credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.ipynb_checkpoints/
